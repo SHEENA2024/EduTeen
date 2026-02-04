@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# EduTeen Platform 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A front-end scaffold for the **EduTeen** learning platform — a modern React application built with Create React App, Tailwind CSS, and Lucide icons.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tech Stack 🔧
 
-### `npm start`
+- **Framework:** React 19 (Create React App)
+- **Styling:** Tailwind CSS + PostCSS
+- **Icons:** lucide-react
+- **Testing:** React Testing Library, Jest
+- **Builder / Tooling:** react-scripts, ESLint
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features ✨
 
-### `npm test`
+- Clean React structure bootstrapped with Create React App
+- Utility-first styling with Tailwind CSS
+- Lightweight vector icons via `lucide-react`
+- Preconfigured testing setup using React Testing Library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Quick Start ⚡
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (LTS recommended — 18+)
+- npm (or use a compatible package manager)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Run locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Build for production
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm test
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Structure 🗂️
 
-### Analyzing the Bundle Size
+- `public/` — static assets & `index.html`
+- `src/` — application source (`App.js`, `index.js`, `App.css`, tests)
+- `tailwind.config.js`, `postcss.config.js` — Tailwind setup
+- `package.json` — scripts & dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Styling / Tailwind Notes 🎨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Configure design tokens and plugins in `tailwind.config.js`.
+- Global styles in `src/index.css` and `src/App.css`.
+- If you change Tailwind config, restart the dev server to ensure the changes apply.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Testing 🧪
 
-### Deployment
+- Tests use **React Testing Library** and live next to components (`App.test.js`).
+- Run `npm test` for watch-mode testing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
